@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" role="img" aria-labelledby="title description">
+  <title id="title">Contoh output terminal Character Manager</title>
+  <desc id="description">Output yang diharapkan ketika menjalankan Main, termasuk mana dan hasil isAlive true.</desc>
+  <rect width="900" height="470" rx="12" fill="#171717"/>
+  <path d="M12 0h876a12 12 0 0 1 12 12v32H0V12A12 12 0 0 1 12 0Z" fill="#303030"/>
+  <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="22" r="6" fill="#27c93f"/>
+  <text x="450" y="27" text-anchor="middle" fill="#d0d0d0" font-family="Consolas, monospace" font-size="13">Character Manager — terminal output</text>
+  <g fill="#e8e8e8" font-family="Consolas, monospace" font-size="15">
+    <text x="24" y="78">$ java Main</text>
+    <text x="24" y="108">=== Character Manager v0.1 ===</text>
+    <text x="24" y="138">Character{id=0, name='Arjuna', type=WARRIOR, level=5, hp=150, atk=35, mana=0}</text>
+    <text x="24" y="168">Character{id=0, name='Merlin', type=MAGE, level=3, hp=130, atk=25, mana=0}</text>
+    <text x="24" y="198">Character{id=0, name='Athena', type=ARCHER, level=4, hp=140, atk=30, mana=0}</text>
+    <text x="24" y="238">&gt;&gt; Arjuna level up!</text>
+    <text x="24" y="268">After level up: Character{id=0, name='Arjuna', type=WARRIOR, level=6, hp=160, atk=40, mana=0}</text>
+    <text x="24" y="308">&gt;&gt; Nama karakter: Arjuna</text>
+    <text x="24" y="338">&gt;&gt; Jenis karakter: WARRIOR</text>
+    <text x="24" y="368">&gt;&gt; HP saat ini: 160</text>
+    <text x="24" y="408">Character{id=0, name='Garuda', type=HEALER, level=2, hp=120, atk=20, mana=30}</text>
+    <text x="24" y="438" fill="#27c93f">&gt;&gt; Garuda masih hidup? true</text>
+  </g>
+</svg>
