@@ -1,4 +1,4 @@
-# Character Manager — TP3 (Java Visual SIH-6406)
+# Character Manager — TP3 (Java Visual)
 
 Proyek ini membangun aplikasi Java sederhana untuk mengelola karakter game, termasuk tipe karakter dan statistik seperti level, HP, attack, serta mana. Implementasinya menerapkan encapsulation dengan atribut `private`, getter dan setter tervalidasi, dua constructor, enum `CharacterType`, serta method `isAlive()` untuk memeriksa status hidup karakter.
 
