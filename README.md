@@ -23,10 +23,13 @@ Proyek ini membangun aplikasi Java sederhana untuk mengelola karakter game, term
 - **Analitik:** rata-rata level (termasuk koleksi kosong), pencarian karakter berdasarkan tipe, dan jumlah karakter per tipe.
 - **Eksperimen reference:** menunjukkan bahwa dua variabel dapat menunjuk objek yang sama, sementara penambahan elemen ke salinan list tidak mengubah koleksi manager.
 - **Fitur analitik Bagian C:** `CharacterManager.countByType(CharacterType)` menghitung langsung tanpa mengekspos ArrayList internal. Rancangannya menjaga encapsulation sekaligus menyediakan statistik per tipe.
-- **Google Docs Bagian D TP5:** [JavaVisual_TP05_253303621206_HERDIANTA YUVENTUS TARIGAN](https://docs.google.com/document/d/1FqPyn-bHtHbp-G_ItmMZ2uDQhRkKlO8_5oDj8rdXAto/edit?tab=t.0).
 - **Salinan analisis lokal (lebih dari 500 kata):** [docs/Analisis-TP5-Bagian-D.md](./docs/Analisis-TP5-Bagian-D.md).
 
-Analisis Bagian D membahas reference objek, perbedaan dengan primitive, rancangan counter static, `equals()` untuk nama duplikat, serta risiko membuka reference ke list internal. `totalCharacterCreated` belum ada dalam `Character.java`, sehingga counter dijelaskan sebagai rancangan sesuai pertanyaan, bukan fitur yang telah diimplementasikan.
+### Bagian D — Analisis Reference (Google Docs)
+
+[Buka Google Docs: JavaVisual_TP05_253303621206_HERDIANTA YUVENTUS TARIGAN](https://docs.google.com/document/d/1FqPyn-bHtHbp-G_ItmMZ2uDQhRkKlO8_5oDj8rdXAto/edit)
+
+Dokumen membahas perilaku object reference, perbedaannya dengan primitive value, alasan counter `static`, implementasi `equals()` untuk duplikat nama, dan risiko mengembalikan ArrayList internal. `totalCharacterCreated` belum didefinisikan di `Character.java`, sehingga bagian tersebut menjelaskan rancangan sesuai soal. Salinan analisis 500+ kata juga tersedia di [docs/Analisis-TP5-Bagian-D.md](./docs/Analisis-TP5-Bagian-D.md).
 
 Screenshot berikut memperlihatkan output CRUD dan eksperimen reference:
 

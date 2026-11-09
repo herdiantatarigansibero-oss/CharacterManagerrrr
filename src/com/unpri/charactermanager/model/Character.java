@@ -1,5 +1,7 @@
 package com.unpri.charactermanager.model;
 
+import java.util.Objects;
+
 /**
  * Merepresentasikan satu karakter dalam aplikasi Character Manager.
  * Menerapkan prinsip Encapsulation: semua atribut private,
@@ -90,5 +92,19 @@ public   class Character {
                ", hp=" + hitPoints +
                ", atk=" + attackPower +
                ", mana=" + mana + '}';
+    }
+
+    // ===== equals(): membandingkan isi data, bukan alamat memori =====
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (!(obj instanceof Character)) return false;
+        Character other = (Character) obj;
+        return Objects.equals(this.name, other.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(name);
     }
 }
